@@ -29,7 +29,7 @@ class _XoGameState extends State<XoGame> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.green,
         title: Text(
           "Xo Game",
           style: TextStyle(fontSize: 28, color: Colors.white),
