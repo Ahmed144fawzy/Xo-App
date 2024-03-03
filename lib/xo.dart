@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:xo_pro/board_btn.dart';
 
 class XoGame extends StatefulWidget {
-  XoGame({super.key});
+  const XoGame({super.key});
 
   @override
   State<XoGame> createState() => _XoGameState();
@@ -30,7 +30,7 @@ class _XoGameState extends State<XoGame> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.green,
-        title: Text(
+        title: const Text(
           "Xo Game",
           style: TextStyle(fontSize: 28, color: Colors.white),
         ),
@@ -44,26 +44,26 @@ class _XoGameState extends State<XoGame> {
                 Column(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
-                    Text(
+                    const Text(
                       "player1",
                       style: TextStyle(fontSize: 26),
                     ),
                     Text(
                       "$score1",
-                      style: TextStyle(fontSize: 22),
+                      style: const TextStyle(fontSize: 22),
                     ),
                   ],
                 ),
                 Column(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
-                    Text(
+                    const Text(
                       "player1",
                       style: TextStyle(fontSize: 26),
                     ),
                     Text(
                       "$score2",
-                      style: TextStyle(fontSize: 22),
+                      style: const TextStyle(fontSize: 22),
                     ),
                   ],
                 )
